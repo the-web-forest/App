@@ -70,7 +70,7 @@ body {
 
 body {
   background: #ffffff;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
@@ -86,7 +86,7 @@ body {
  * ## links 
  * ------------------------------------------------------------------- */
 a {
-  color: #8dc63f;
+  color: #65A743;
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -108,7 +108,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Black";
   font-weight: 700;
   font-style: normal;
   color: #000000;
@@ -185,7 +185,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 400;
   font-size: 2.6rem;
   line-height: 1.846;
@@ -217,13 +217,13 @@ b {
 
 em,
 i {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-style: italic;
 }
 
 strong,
 b {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Bold";
   font-weight: 700;
 }
 
@@ -254,7 +254,7 @@ blockquote {
 }
 
 blockquote p {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 400;
   padding: 0;
   font-size: 2.8rem;
@@ -278,7 +278,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.333;
@@ -296,7 +296,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 700;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -309,7 +309,7 @@ kbd,
 samp,
 code,
 pre {
-  font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  font-family: "Aprova-Sans-Regular"
 }
 
 pre {
@@ -410,7 +410,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #8dc63f;
+  background: #65A743;
   position: absolute;
   left: -16px;
   top: 11px;
@@ -419,7 +419,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #8dc63f;
+  color: #65A743;
 }
 
 dd {
@@ -468,7 +468,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   border-collapse: collapse;
 }
 
@@ -481,7 +481,7 @@ td {
 
 th {
   color: #000000;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 700;
 }
 
@@ -751,7 +751,7 @@ select {
   border: 0;
   outline: none;
   color: #000000;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-size: 1.5rem;
   line-height: 3.2rem;
   max-width: 100%;
@@ -820,12 +820,12 @@ textarea:focus,
 select:focus {
   color: #000000;
   box-shadow: 0 0 5px rgba(141, 198, 63, 0.8);
-  border: 1px solid #8dc63f;
+  border: 1px solid #65A743;
 }
 
 label,
 legend {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 2;
@@ -842,7 +842,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   line-height: inherit;
 }
 
@@ -913,7 +913,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #8dc63f;
+  -webkit-text-fill-color: #65A743;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -929,7 +929,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 700;
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -974,8 +974,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #8dc63f;
-  border-color: #8dc63f;
+  background: #65A743;
+  border-color: #65A743;
   color: #ffffff;
 }
 
@@ -1059,7 +1059,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .drop-cap:first-letter {
   float: left;
-  font-family: "DM Serif Display", serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 400;
   font-size: 5.334em;
   line-height: 1;
@@ -1189,20 +1189,20 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 700;
   border: none;
   color: #000000;
 }
 
 .stats-tabs li a:hover {
-  color: #8dc63f;
+  color: #65A743;
 }
 
 .stats-tabs li a em {
   display: block;
   margin: .8rem 0 0 0;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
@@ -1231,7 +1231,7 @@ input::-moz-focus-inner {
   position: absolute;
   left: 0;
   top: -4rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
@@ -1251,7 +1251,7 @@ input::-moz-focus-inner {
   right: 0;
   top: -3.6rem;
   display: block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   color: #ffffff;
   font-size: 1.1rem;
   line-height: 1;
@@ -1361,7 +1361,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3.2rem;
   border-radius: 3px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.6;
@@ -1811,13 +1811,13 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .intro-content__text h3 {
   display: inline-block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2rem;
   text-transform: uppercase;
   letter-spacing: .3em;
-  color: #8dc63f;
+  color: #65A743;
   padding-left: .6rem;
   margin-top: 0;
   margin-bottom: .8rem;
@@ -1836,7 +1836,7 @@ input::-moz-focus-inner {
 }
 
 .intro-content__text h1 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Aprova-Sans-Black";
   font-weight: 400;
   font-size: 8rem;
   line-height: 1.2;
@@ -1876,7 +1876,7 @@ input::-moz-focus-inner {
 .intro-content__counter-wrap h4 {
   margin-top: 0;
   margin-bottom: .8rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.25;
@@ -1986,7 +1986,7 @@ input::-moz-focus-inner {
 }
 
 .modal svg {
-  fill: #8dc63f;
+  fill: #65A743;
   width: 4.8rem;
   height: 4.8rem;
 }
@@ -2053,7 +2053,7 @@ input::-moz-focus-inner {
 
 .modal form label {
   color: #000000;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-size: 1.3rem;
   line-height: 1.846;
   padding: 0 2rem;
@@ -2536,7 +2536,7 @@ html.no-csstransitions .intro-content__bottom {
   display: block;
   height: inherit;
   width: 1px;
-  background-color: #8dc63f;
+  background-color: #65A743;
   position: absolute;
   left: 50%;
   top: 0;
@@ -2564,11 +2564,12 @@ html.no-csstransitions .intro-content__bottom {
 }
 
 .s-info h1 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Aprova-Sans-Black";
   font-weight: 400;
   padding-bottom: 3.6rem;
   margin-bottom: 3.6rem;
   position: relative;
+  color: #65A743;
 }
 
 .s-info h1::after {
@@ -2576,7 +2577,7 @@ html.no-csstransitions .intro-content__bottom {
   content: "";
   width: 8rem;
   height: 1px;
-  background-color: #8dc63f;
+  background-color: #65A743;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -2662,11 +2663,11 @@ html.no-csstransitions .intro-content__bottom {
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
   margin-bottom: 2rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-weight: 700;
   font-size: 3.6rem;
   line-height: 1;
-  color: #8dc63f;
+  color: #65A743;
 }
 
 /* link list
@@ -2687,25 +2688,25 @@ html.no-csstransitions .intro-content__bottom {
 .link-list a:hover,
 .link-list a:focus,
 .link-list a:active {
-  color: #8dc63f;
+  color: #65A743;
 }
 
 /* tab contact bottom
  * -------------------------------------- */
 .contact-email {
   display: inline-block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Aprova-Sans-Regular";
   font-size: 6rem;
   font-weight: 700;
   line-height: 1;
   margin: 5.6rem 0 .8rem;
-  color: #8dc63f;
+  color: #65A743;
   border-bottom: 1px solid #efefef;
 }
 
 .contact-email:hover,
 .contact-email:focus {
-  color: #8dc63f;
+  color: #65A743;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -2722,7 +2723,7 @@ html.no-csstransitions .intro-content__bottom {
 
 .contact-number a:hover,
 .contact-number a:focus {
-  color: #8dc63f;
+  color: #65A743;
 }
 
 .contact-number a::after {
