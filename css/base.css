@@ -20,9 +20,21 @@
  * # imports 
  *
  * ------------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Gothic+A1:300,400,500,600,700,800&display=swap");
 
+@font-face {
+    font-family: "Aprova-Sans-Black";
+    src: url('../fonts//AprovaSans-Black.ttf') format("truetype");
+}
 
+@font-face {
+    font-family: "Aprova-Sans-Bold";
+    src: url('../fonts//AprovaSans-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Aprova-Sans-Regular";
+    src: url('../fonts//AprovaSans-Regular.ttf') format("truetype");
+}
 
 /* ==========================================================================
  * # normalize
